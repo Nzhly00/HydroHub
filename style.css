@@ -1,0 +1,382 @@
+*{
+    margin: ;
+    padding: auto;
+    box-sizing: ;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block ;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 200px ;
+    padding-right: 200px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 120%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #5067e9 ;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5
+}
+.btn:hover{
+background: rgb(101, 87, 184)
+}
+
+,header{
+    background: ;
+}
+
+.col-3 img{
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+}
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 1;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.checked {
+    color: #5067e9
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+ .title::after{
+    content: '';
+    background: #3e3bff;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p{
+font-size: 14px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.offer{
+    padding: 70px;
+}
+
+.offer img{
+    width: 500px; height: auto;
+  padding-left: 80px;
+}
+
+small{
+    color: #001128;
+}
+
+/* brands */
+
+.brands{
+margin: 100px auto;
+margin-bottom: 150px;
+}
+col-5{
+    width: 160px;
+}
+
+/* footer */
+.footer{
+background: #000;
+color: #8a8a8a;
+font: 14px;
+padding: 10px 0 10px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+color: fff;
+margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #5b5b5b ;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width 800px){
+    nav ul{
+        position:absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100px;
+
+    }
+}
+
+.ch :hover{
+    color: #3e3bff;
+}
+
+/* all product page */
+.row-2{
+    justify-content: space-between;
+    margin:50px 300px 50px;
+}
+
+select{
+    border: 1px solid #3e3bff;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #3e3bff ;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #3e3bff;
+    color: #fff;
+}
+
+.pr{
+    padding: 100px;
+}
+
+.cart-page{
+    margin: 80px auto;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 150px;
+}
+.cart-info{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background:#3e3bff;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+
+td input{
+    width: 40px;
+    height:30px;
+    padding: 5px;
+    text-align: center;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 197px;
+}
+
+.total-price table{
+    border-top: solid #3e3bff;
+    width: 100%;
+    max-width: 350px;
+}
+
+.account-page{
+    padding: 50px 0;
+    background:radial-gradient(#fff,#ffd6d6);
+}
+
+.form-container{
+    background: #fff;
+    width:300px;
+    height:400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+}
+
+.form input{
+    width:100% ;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .btn :focus{
+    outline: none;
+}
+
+    margin-top: 8px;
+    transform: translateX(100px);
+}
